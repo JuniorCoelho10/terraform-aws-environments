@@ -1,0 +1,21 @@
+# Arquivos com variáveis e informações sensíveis
+**/terraform.tfvars
+**/*.tfvars
+**/*.tfvars.json
+
+# Estado do Terraform
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/.terraform/
+
+# Arquivos de backup
+**/*.backup
+
+
+# Dados persistidos do Floci
+/data/
+
+
+# Arquivos temporários e de depuração
+*.log
+*.dot
